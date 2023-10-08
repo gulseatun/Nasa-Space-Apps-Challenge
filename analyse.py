@@ -2,7 +2,7 @@ import pandas as pd
 import os
 import requests
 
-desktop_path = os.path.join(os.path.expanduser("~"), "OneDrive\Masaüstü")
+desktop_path = os.path.join(os.path.expanduser("~"), "Desktop")
 print(desktop_path)
 merged_url = "https://raw.githubusercontent.com/gulseatun/Nasa-Space-Apps-Challenge/main/AceData.lst"
 input_path = desktop_path + "\MergedData.lst"
